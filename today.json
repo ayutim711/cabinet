@@ -9,9 +9,10 @@
     { "id": "med-08", "slot": "睡前30分钟", "amount": "按标签", "reason": "眠る力助眠" }
   ],
   "care": [
-    { "id": "new-20", "slot": "早晚洁面", "amount": "泡沫洁面", "reason": "日常清洁，珂润温和" },
+    { "id": "new-18", "slot": "早晚洁面", "amount": "泡沫洁面", "reason": "毛穴抚子大米洁面粉，日常清洁" },
     { "id": "new-10", "slot": "洁面后", "amount": "全脸", "reason": "IHADA化妆水补水保湿" },
-    { "id": "new-6", "slot": "化妆水后", "amount": "全脸", "reason": "IHADA乳液锁水" },
+    { "id": "new-20", "slot": "化妆水后", "amount": "挤泡沫涂匀", "reason": "珂润泡沫精华保湿（不是洁面）" },
+    { "id": "new-6", "slot": "精华后", "amount": "全脸", "reason": "IHADA乳液锁水" },
     { "id": "old-1", "slot": "今晚睡前", "amount": "薄涂", "reason": "EVE LOM睡眠面膜加强保湿（今晚做一次）" }
   ]
 }
