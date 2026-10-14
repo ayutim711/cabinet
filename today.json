@@ -1,5 +1,12 @@
 {
   "date": "2026-10-15",
-  "health": [],
+  "health": [
+    { "id": "med-04", "slot": "早餐后", "amount": "1粒", "reason": "补维D，随餐吸收更好；今天不叠吃带维D的K2复合" },
+    { "id": "med-05", "slot": "早餐后", "amount": "1粒", "reason": "补K2，配合维D和钙" },
+    { "id": "med-03", "slot": "早餐后", "amount": "3粒", "reason": "补镁300mg；今天不叠吃CandyCare镁" },
+    { "id": "med-10", "slot": "早餐后", "amount": "1粒", "reason": "叶黄素护眼" },
+    { "id": "med-15", "slot": "早餐后", "amount": "1–2粒", "reason": "布拉氏酵母，肠道支持" },
+    { "id": "med-08", "slot": "睡前30分钟", "amount": "按标签", "reason": "眠る力助眠" }
+  ],
   "care": []
 }
