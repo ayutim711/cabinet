@@ -33,7 +33,7 @@ function care(){
   let list=s.q?V.filter(p=>match(p,s.q)):V.filter(p=>s.mode==='frequency'?(p.frequency||[]).includes(s.sel):p[s.mode]===s.sel);
   const effs=s.mode==='category'&&!s.q?EFF.filter(e=>list.some(p=>p.effects.includes(e))):[];if(!effs.includes(s.eff))s.eff=null;if(s.eff)list=list.filter(p=>p.effects.includes(s.eff));
   const fl={'可每日':'按日','每周几次':'按周','按需':'按需'};
-  app.innerHTML=`<header class="top"><h1 class="title">护理柜</h1>${searchBox('q-care','搜索护理用品',s.q)}${seg([['category','品类'],['frequency','频次'],['brand','品牌']],s.mode,'cmode')}</header>
+  app.innerHTML=`<header class="top"><div class="row"><a class="iconbtn back" href="#home" aria-label="返回首页">‹</a><h1 class="title">护理柜</h1></div>${searchBox('q-care','搜索护理用品',s.q)}${seg([['category','品类'],['frequency','频次'],['brand','品牌']],s.mode,'cmode')}</header>
   ${s.q?'':s.mode==='category'?`<div class="cats">${opts.map(c=>`<button type="button" class="cat" data-csel="${esc(c)}" aria-pressed="${c===s.sel}"><div class="ic"><img src="img/category-${IC[c]}.webp" alt=""></div>${esc(CN[c]||c)} <small style="color:var(--mute)">${V.filter(p=>p.category===c).length}</small></button>`).join('')}</div>`:`<div class="chips">${opts.map(o=>`<button type="button" class="chip" data-csel="${esc(o)}" aria-pressed="${o===s.sel}">${esc(fl[o]||o)}</button>`).join('')}</div>`}
   ${effs.length?`<div class="chips"><button type="button" class="chip" data-ceff="" aria-pressed="${!s.eff}">全部</button>${effs.map(e=>`<button type="button" class="chip" data-ceff="${esc(e)}" aria-pressed="${e===s.eff}">${esc(e)}</button>`).join('')}</div>`:''}
   <div class="meta">${s.q?`搜索「${esc(s.q)}」`:esc(fl[s.sel]&&s.mode==='frequency'?fl[s.sel]:CN[s.sel]||s.sel)} · ${list.length} 件</div><section class="grid">${list.map(careCard).join('')||'<div class="empty">没有找到</div>'}</section>`;
@@ -45,13 +45,13 @@ function health(){
   const f=p=>s.mode==='timing'?grp(p)===s.sel:s.mode==='purpose'?(p.purposes||[]).includes(s.sel):p.brand===s.sel;
   const list=s.q?V.filter(p=>match(p,s.q)):V.filter(f);
   const dup=V.filter(p=>(p.details?.sections||[]).some(x=>x.title.includes('重复'))).length;
-  app.innerHTML=`<header class="top"><h1 class="title">保健柜</h1>${searchBox('q-health','搜索成分，如「镁」「维生素D」',s.q)}${seg([['timing','频次'],['purpose','功效'],['brand','品牌']],s.mode,'hmode')}</header>
+  app.innerHTML=`<header class="top"><div class="row"><a class="iconbtn back" href="#home" aria-label="返回首页">‹</a><h1 class="title">保健柜</h1></div>${searchBox('q-health','搜索成分，如「镁」「维生素D」',s.q)}${seg([['timing','频次'],['purpose','功效'],['brand','品牌']],s.mode,'hmode')}</header>
   ${s.q?'':`<div class="chips">${opts.map(o=>`<button type="button" class="chip" data-hsel="${esc(o)}" aria-pressed="${o===s.sel}">${esc(o)} <small>${V.filter(p=>s.mode==='timing'?grp(p)===o:s.mode==='purpose'?(p.purposes||[]).includes(o):p.brand===o).length}</small></button>`).join('')}</div>`}
   <div class="meta">${s.q?`搜索「${esc(s.q)}」`:esc(s.sel)} · ${list.length} 件</div><section class="grid">${list.map(healthCard).join('')||'<div class="empty">没有找到</div>'}</section>`;
 }
 function search(){
   const q=st.q,h=HEALTH.filter(p=>match(p,q)),c=CARE.filter(p=>match(p,q));
-  app.innerHTML=`<header class="top"><h1 class="title">搜索</h1>${searchBox('q-all','品牌、名称、功效、成分',q)}</header>${q?`<div class="meta">保健品 ${h.length} · 护理 ${c.length}</div><section class="grid">${h.map(healthCard).join('')}${c.map(careCard).join('')}</section>${h.length+c.length?'':'<div class="empty">没有找到</div>'}`:'<div class="empty">输入关键词，如「保湿」「镁」「HFP」</div>'}`;
+  app.innerHTML=`<header class="top"><div class="row"><a class="iconbtn back" href="#home" aria-label="返回首页">‹</a><h1 class="title">搜索</h1></div>${searchBox('q-all','品牌、名称、功效、成分',q)}</header>${q?`<div class="meta">保健品 ${h.length} · 护理 ${c.length}</div><section class="grid">${h.map(healthCard).join('')}${c.map(careCard).join('')}</section>${h.length+c.length?'':'<div class="empty">没有找到</div>'}`:'<div class="empty">输入关键词，如「保湿」「镁」「HFP」</div>'}`;
   const i=document.getElementById('q-all');if(i&&!q)i.focus();
 }
 function openSheet(id){
@@ -65,7 +65,7 @@ function openSheet(id){
 }
 sheet.addEventListener('close',()=>document.body.style.overflow='');
 sheet.addEventListener('click',e=>{if(e.target===sheet){const r=sheet.getBoundingClientRect();if(e.clientY<r.top||e.clientX<r.left||e.clientX>r.right)sheet.close()}if(e.target.closest('[data-close]'))sheet.close()});
-function route(){const r=(location.hash.slice(1)||'home');({home,care,health,search}[r]||home)();document.querySelectorAll('.tab a').forEach(a=>a.classList.toggle('on',a.dataset.r===r)&&a.setAttribute('aria-current','page'));if(!('ontouchstart' in window))0;}
+function route(){const r=(location.hash.slice(1)||'home');({home,care,health,search}[r]||home)();}
 app.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const D=b.dataset,top=()=>window.scrollTo({top:0});
   if(D.open)return openSheet(D.open);
   if(D.cmode){st.care.mode=D.cmode;st.care.eff=null;care();top()}else if(D.csel!==undefined){st.care.sel=D.csel;st.care.eff=null;care()}else if(D.ceff!==undefined){st.care.eff=D.ceff||null;care()}
