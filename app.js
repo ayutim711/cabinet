@@ -24,7 +24,7 @@ function home(){
   app.innerHTML=`<div class="hero"><div class="hello">${t.date?fmtDate(t.date):'今天'}</div><h1 class="big">我的柜子</h1><a class="search" href="#search">🔍 <span>搜索 ${CARE.length+HEALTH.length} 件用品、品牌、成分</span></a></div>
   ${today===null?`<div class="banner">未能读取 today.json（直接双击打开本地文件时浏览器会拦截，部署到网页或用本地服务器即可）。</div>`:''}
   <div class="cab"><a class="cb" href="#care" style="background:#f7efd9"><h3>护理柜</h3><img src="img/home-care.webp" alt=""></a><a class="cb" href="#health" style="background:#e6ecdc"><h3>保健柜</h3><img src="img/home-health.webp" alt=""></a></div>
-  ${sec('今日推荐 · 保健品',h)}${sec('今日推荐 · 护肤',c)}`;
+  ${sec('今日推荐 · 护肤',c)}${sec('今日推荐 · 保健品',h)}`;
 }
 function care(){
   const s=st.care,V=CARE;let opts;

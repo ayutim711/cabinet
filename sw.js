@@ -1,5 +1,5 @@
-const V='cab-v12';
-const CORE=['./','index.html','style.css?v=12','app.js?v=12','data/care.js?v=12','data/health.js?v=12','today.json'];
+const V='cab-v13';
+const CORE=['./','index.html','style.css?v=13','app.js?v=13','data/care.js?v=13','data/health.js?v=13','today.json'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(V).then(c=>c.addAll(CORE)))});
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 const put=(req,res)=>{if(res.ok){const c=res.clone();caches.open(V).then(x=>x.put(req,c))}return res};
