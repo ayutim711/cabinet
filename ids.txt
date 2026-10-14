@@ -1,0 +1,70 @@
+# 产品 id 对照表（填 today.json 用）
+
+## 保健柜 health
+med-01	Doctor’s Best K2 MK-7+D3钙复合软胶囊
+med-02	CandyCare 甘氨酸镁复方胶囊
+med-03	NatureWise 海洋镁软胶囊
+med-04	NatureWise 维生素D3软胶囊·5000IU
+med-05	NatureWise 维生素K2软胶囊
+med-06	feat. Bright C复合维生素胶囊
+med-07	富士胶片 葛花异黄酮EX
+med-08	小林制药 眠る力快眠补充剂
+med-10	小林制药 叶黄素胶囊
+med-11	SVELTY 黑姜腹部脂肪ぱっくん
+med-15	imuneks Farma Probiomax布拉氏酵母胶囊
+
+## 护理柜 care
+old-1	EVE LOM 保湿睡眠面膜
+old-3	HFP J17 毛孔净透精华油
+old-4	HFP J11 果酸精华液
+old-5	KOSE 早安面膜
+old-6	VT PDRN 日常面膜
+old-7	一苏 云糯焕颜水洗面膜
+old-8	一苏 Hello Kitty 合作款
+old-9	beplain 绿豆清凉面膜
+old-10	敷尔佳 胶原嘭弹乳霜面膜
+old-11	C咖 清 · 清洁泥膜
+old-12	C咖 晶采透亮面膜
+old-13	C咖 蜂王浆熬夜嗨面膜
+old-14	C咖 渴 · 保湿面膜
+old-15	C咖 白 · 美白面膜
+old-16	KOSE 每日素肌面膜
+old-17	KOSE キニナル 面膜
+old-18	KOSE 素肌基础面膜
+old-19	KOSE 维生素 BOMB 面膜
+old-20	KOSE 壬二酸 BOMB 面膜
+old-21	KOSE 谷胱甘肽 BOMB 面膜
+old-22	KOSE 毛穴小町面膜
+new-1	CoenRich Q10鲜桃美白护手霜
+new-2	YSL 维稳双相精华水
+new-3	BIO HEAL BOH 积雪草修护乳霜喷雾
+new-4	RNW 如薇 净颜冰沙卸妆膏
+new-5	毛穴抚子 大米面霜
+new-6	IHADA 药用美白保湿乳液
+new-7	IHADA 药用晚安面膜
+new-8	fru:C PDRN+C多效精华
+new-9	fru:C 维C多效精华
+new-10	IHADA 药用美白保湿化妆水
+new-11	HFP L05果酸净透精华水
+new-12	&PAIR 二合一护发乳喷雾
+new-13	byTREES 滋润修护护发油
+new-14	OR 星缎蕴养修护发乳油
+new-15	MQURE 分子修护护发精华
+new-16	Essential EX顺滑免洗护发水
+new-17	毛穴抚子 浴后含油保湿喷雾
+new-18	毛穴抚子 大米洁面粉
+new-19	suisai 毛孔净澈擦拭美容水
+new-20	珂润 润浸保湿泡沫精华
+new-21	SOFINA iP 水光泡沫精华
+new-22	&PAIR 二合一修护护发素
+new-23	&PAIR 二合一修护洗发水
+new-24a	CoenRich 蓝管抗皱美白护手霜
+new-24b	CoenRich 金管夜间滋润护手霜
+new-25	HBN 咖啡因紧致修护眼霜
+new-26	HBN 多重视黄醇睡眠面膜
+new-27	SUNGBOON EDITOR 绿番茄NMN精华
+new-28	透明白肌 透明嫩白面膜
+new-29	&nail 甲床护理油
+new-30	&nail 甘皮滋养凝胶油
+new-31	一苏 小新2号舒缓鼻贴
+new-32	GEMO LAB 无菌皮肤修复贴
