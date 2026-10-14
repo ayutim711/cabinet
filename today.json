@@ -1,18 +1,73 @@
 {
   "date": "2026-10-15",
   "health": [
-    { "id": "med-04", "slot": "早餐后", "amount": "1粒", "reason": "补维D，随餐吸收更好；今天不叠吃带维D的K2复合" },
-    { "id": "med-05", "slot": "早餐后", "amount": "1粒", "reason": "补K2，配合维D" },
-    { "id": "med-03", "slot": "早餐后", "amount": "3粒", "reason": "补镁300mg；今天不叠吃CandyCare镁" },
-    { "id": "med-10", "slot": "早餐后", "amount": "1粒", "reason": "叶黄素护眼" },
-    { "id": "med-15", "slot": "早餐后", "amount": "1–2粒", "reason": "布拉氏酵母，肠道支持" },
-    { "id": "med-08", "slot": "睡前30分钟", "amount": "按标签", "reason": "眠る力助眠" }
+    {
+      "id": "med-04",
+      "slot": "早餐后",
+      "amount": "1粒",
+      "reason": "补维D，随餐吸收更好；今天不叠吃带维D的K2复合"
+    },
+    {
+      "id": "med-05",
+      "slot": "早餐后",
+      "amount": "1粒",
+      "reason": "补K2，配合维D"
+    },
+    {
+      "id": "med-03",
+      "slot": "早餐后",
+      "amount": "3粒",
+      "reason": "补镁300mg；今天不叠吃CandyCare镁"
+    },
+    {
+      "id": "med-10",
+      "slot": "早餐后",
+      "amount": "1粒",
+      "reason": "叶黄素护眼"
+    },
+    {
+      "id": "med-15",
+      "slot": "早餐后",
+      "amount": "1–2粒",
+      "reason": "布拉氏酵母，肠道支持"
+    },
+    {
+      "id": "med-08",
+      "slot": "睡前30分钟",
+      "amount": "按标签",
+      "reason": "眠る力助眠"
+    }
   ],
   "care": [
-    { "id": "new-18", "slot": "早晚洁面", "amount": "泡沫洁面", "reason": "毛穴抚子大米洁面粉，日常清洁" },
-    { "id": "new-10", "slot": "洁面后", "amount": "全脸", "reason": "IHADA化妆水补水保湿" },
-    { "id": "new-20", "slot": "化妆水后", "amount": "挤泡沫涂匀", "reason": "珂润泡沫精华保湿（不是洁面）" },
-    { "id": "new-6", "slot": "精华后", "amount": "全脸", "reason": "IHADA乳液锁水" },
-    { "id": "old-1", "slot": "今晚睡前", "amount": "薄涂", "reason": "EVE LOM睡眠面膜加强保湿（今晚做一次）" }
+    {
+      "id": "new-18",
+      "slot": "早晚洁面",
+      "amount": "泡沫洁面",
+      "reason": "毛穴抚子大米洁面粉，日常清洁"
+    },
+    {
+      "id": "new-10",
+      "slot": "洁面后",
+      "amount": "全脸",
+      "reason": "IHADA化妆水补水保湿"
+    },
+    {
+      "id": "new-20",
+      "slot": "化妆水后",
+      "amount": "挤泡沫涂匀",
+      "reason": "珂润泡沫精华保湿"
+    },
+    {
+      "id": "new-6",
+      "slot": "精华后",
+      "amount": "全脸",
+      "reason": "IHADA乳液锁水"
+    },
+    {
+      "id": "old-1",
+      "slot": "今晚睡前",
+      "amount": "薄涂",
+      "reason": "EVE LOM睡眠面膜加强保湿（今晚做一次）"
+    }
   ]
 }
