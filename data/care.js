@@ -1033,5 +1033,24 @@ window.CARE=[
   "use": "20–30分钟",
   "frequency": [],
   "img": "img/p/new-32.webp"
+ },
+ {
+  "id": "new-33",
+  "brand": "毛穴抚子",
+  "name": "小苏打鼻膜",
+  "form": "涂抹式鼻膜",
+  "category": "面膜",
+  "effects": [
+   "清洁"
+  ],
+  "tags": [
+   "黑头",
+   "毛孔"
+  ],
+  "use": "涂5分钟·擦掉",
+  "frequency": [
+   "每周几次"
+  ],
+  "img": "img/p/new-33.webp"
  }
 ];
