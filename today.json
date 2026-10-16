@@ -1,23 +1,17 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "health": [
     {
-      "id": "med-04",
+      "id": "med-01",
       "slot": "早餐后",
       "amount": "1粒",
-      "reason": "补维D，随餐吸收更好"
+      "reason": "补钙+D3+K2，随餐吸收更好"
     },
     {
-      "id": "med-05",
+      "id": "med-02",
       "slot": "早餐后",
-      "amount": "1粒",
-      "reason": "补K2，配合维D"
-    },
-    {
-      "id": "med-03",
-      "slot": "早餐后",
-      "amount": "3粒",
-      "reason": "补镁300mg"
+      "amount": "2粒",
+      "reason": "补镁，支持肌肉神经"
     },
     {
       "id": "med-10",
@@ -68,12 +62,6 @@
       "slot": "精华后",
       "amount": "全脸",
       "reason": "IHADA乳液锁水"
-    },
-    {
-      "id": "old-1",
-      "slot": "今晚睡前",
-      "amount": "薄涂",
-      "reason": "EVE LOM睡眠面膜加强保湿"
     }
   ]
 }
