@@ -3,19 +3,13 @@
   "care": [
     {
       "id": "new-18",
-      "slot": "早晚洁面",
+      "slot": "晚间洁面",
       "amount": "泡沫洁面",
       "reason": "毛穴抚子大米洁面粉，日常清洁"
     },
     {
-      "id": "old-5",
-      "slot": "洁面后",
-      "amount": "1片",
-      "reason": "KOSE早安面膜，轻补水"
-    },
-    {
       "id": "new-10",
-      "slot": "面膜后",
+      "slot": "洁面后",
       "amount": "全脸",
       "reason": "IHADA化妆水补水保湿"
     },
@@ -26,37 +20,13 @@
       "reason": "珂润泡沫精华保湿"
     },
     {
-      "id": "new-5",
+      "id": "new-6",
       "slot": "精华后",
       "amount": "全脸",
-      "reason": "毛穴抚子大米面霜锁水"
+      "reason": "IHADA乳液锁水"
     }
   ],
   "health": [
-    {
-      "id": "med-01",
-      "slot": "早餐后",
-      "amount": "1粒",
-      "reason": "K2+D3+钙，支持骨骼与免疫"
-    },
-    {
-      "id": "med-02",
-      "slot": "早餐后",
-      "amount": "按标签",
-      "reason": "甘氨酸镁，支持放松与睡眠"
-    },
-    {
-      "id": "med-10",
-      "slot": "早餐后",
-      "amount": "1粒",
-      "reason": "叶黄素护眼"
-    },
-    {
-      "id": "med-15",
-      "slot": "早餐后",
-      "amount": "1–2粒",
-      "reason": "布拉氏酵母，肠道支持"
-    },
     {
       "id": "med-08",
       "slot": "睡前30分钟",
